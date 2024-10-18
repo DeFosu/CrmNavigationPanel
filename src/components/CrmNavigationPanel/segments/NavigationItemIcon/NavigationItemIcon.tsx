@@ -1,5 +1,5 @@
 import React from "react";
-import type { NavigationItemIconProps } from "./NavigationItemIconType";
+import type { NavigationItemIconProps } from "./NavigationItemIconProps";
 
 const NavigationItemIcon: React.FC<NavigationItemIconProps> = ({
     children = "",
