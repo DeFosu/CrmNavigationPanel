@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../Logo/Logo";
+import Avatar from "../Avatar/Avatar";
 
 const CrmNavigationPanel: React.FC = () => {
     return (
@@ -19,7 +20,8 @@ const CrmNavigationPanel: React.FC = () => {
                         <div>H</div>
                         <div>H</div>
                     </div>
-                    <div>Avatar</div>
+                    {/* <div>Avatar</div> */}
+                    <Avatar />
                 </div>
             </div>
             <div>CrmNavigationPanelOpen</div>
