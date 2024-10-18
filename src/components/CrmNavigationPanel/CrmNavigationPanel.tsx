@@ -4,9 +4,22 @@ import Logo from "../Logo/Logo";
 const CrmNavigationPanel: React.FC = () => {
     return (
         <div className="flex">
-            <div className="bg-slate-300/40 px-6 py-8 rounded-l-3xl rounded-r-sm">
-                <div>
+            <div className="bg-slate-300/40 px-4 py-6 rounded-l-3xl rounded-r-sm flex flex-col items-center justify-between">
+                <div className="flex flex-col items-center gap-4">
                     <Logo />
+                    <div className="flex flex-col items-center gap-2">
+                        <div>H</div>
+                        <div>H</div>
+                        <div>H</div>
+                        <div>H</div>
+                    </div>
+                </div>
+                <div className="flex flex-col items-center gap-4">
+                    <div className="flex flex-col items-center gap-2">
+                        <div>H</div>
+                        <div>H</div>
+                    </div>
+                    <div>Avatar</div>
                 </div>
             </div>
             <div>CrmNavigationPanelOpen</div>
