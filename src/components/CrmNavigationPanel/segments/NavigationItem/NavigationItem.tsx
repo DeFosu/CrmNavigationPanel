@@ -10,7 +10,7 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
     return (
         <div>
             <div
-                className={`flex justify-between items-center p-2.5 rounded ${
+                className={`flex justify-between items-center p-2.5 rounded select-none ${
                     isActive ? "bg-slate-200/60" : "bg-transparent"
                 }`}
             >
