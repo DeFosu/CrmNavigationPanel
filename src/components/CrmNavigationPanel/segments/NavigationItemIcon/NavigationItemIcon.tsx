@@ -7,7 +7,7 @@ const NavigationItemIcon: React.FC<NavigationItemIconProps> = ({
 }) => {
     return (
         <div
-            className={`w-full grid place-content-center aspect-square p-1.5 rounded-lg transition-colors duration-200 ease-in-out  ${
+            className={`w-full grid place-content-center aspect-square p-2 rounded-lg transition-colors duration-200 ease-in-out  ${
                 isActive
                     ? "bg-slate-950 text-slate-50"
                     : "bg-transparent text-slate-950"
